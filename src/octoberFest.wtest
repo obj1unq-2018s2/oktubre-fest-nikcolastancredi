@@ -1,0 +1,16 @@
+import personas.*
+import carpasYjarras.*
+
+describe "1° octoberFest"{
+	
+	const nicolas = new Persona(
+		peso = 75,
+		jarrasTomadas = #{},
+		leGustaMusica = true,
+		aguante = 20
+	)
+	
+	test "Nicolas"{
+		assert.equals(20,nicolas.aguante())
+	}
+}
