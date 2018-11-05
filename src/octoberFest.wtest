@@ -1,16 +1,28 @@
 import personas.*
 import carpasYjarras.*
+import marcas.*
 
-describe "1° octoberFest"{
+describe "Oktober Fest"{
 	
-	const nicolas = new Persona(
+	const nicolas = new Aleman(
 		peso = 75,
 		jarrasTomadas = #{},
 		leGustaMusica = true,
 		aguante = 20
 	)
 	
-	test "Nicolas"{
+//	//const hofbrau new Rubia(gramosDeLupulo = 4, pais = "Alemania", graduacion = 10 )
+//	
+//	
+//	// const carpa01 new Carpa(limit = 5,marca = hofbrau, tienebanda = true,)
+//	//-----------------------------------------------------------
+	test "punto 1 - Contenido de alcohol"{
 		assert.equals(20,nicolas.aguante())
 	}
+//	
+//	test "punto 2 - Total de alchol"{}
+//	
+//	test "punto 3 - Esta ebrio"{}
+//	
+//	test "punto 4 - Quiere entrar"{}
 }
